@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li {
@@ -45,7 +45,7 @@ header .max-width-wrapper {
 }
 
 .first-section .max-width-wrapper {
-    padding: 4em 0;
+    padding: 6em 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,4 +77,95 @@ img {
     font-size: 17px;
     font-weight: bold;
     margin-top: 15px;
+}
+
+.second-section .max-width-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    padding: 1.2em 0;
+}
+
+.second-section .cards {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 6em;
+    
+}
+
+.second-section .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 150px;
+    gap: .7em;
+}
+
+.second-section .card .illustration{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.third-section {
+    background: #E5E7EB;
+}
+
+.third-section .max-width-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding: 6em 0;
+}
+
+.third-section .cite {
+    font-size: 31px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.third-section .author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.fourth-section .max-width-wrapper {
+    padding: 5em 0;
+}
+
+.fourth-section .block {
+    display: flex;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 2.5em 6em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fourth-section button {
+    background: #3882F6;
+    padding: 5px 30px;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    padding: 2em;
 }
